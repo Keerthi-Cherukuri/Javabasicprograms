@@ -1,0 +1,18 @@
+package basicsprogram;
+
+public class StaticAndNonStaticMethod 
+
+{
+    
+	static void add (int a)
+    { 
+    	System.out.println("Addition");
+    }
+    
+	public static void main(String[] args) 
+	{
+		add(100);
+
+	}
+
+}
